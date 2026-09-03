@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 @Entity
 @Getter
 @Setter
-public class Pedidos {
+public class Pedido {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -30,7 +30,7 @@ public class Pedidos {
    
     @ManyToOne
     @JoinColumn(name = "cliente_id")
-    private Clientes clientes;
+    private Cliente cliente;
 
     
     @OneToOne(mappedBy = "pedido")

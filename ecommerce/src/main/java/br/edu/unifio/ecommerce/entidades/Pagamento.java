@@ -31,5 +31,5 @@ public class Pagamento {
  
     @OneToOne
     @JoinColumn(name = "pedido_id")
-    private Pedidos pedidos;
+    private Pedido pedido;
 }
