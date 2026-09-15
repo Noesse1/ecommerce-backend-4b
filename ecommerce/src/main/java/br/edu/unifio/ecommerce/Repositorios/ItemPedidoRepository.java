@@ -1,4 +1,4 @@
-package br.edu.unifio.ecommerce.repositorios;
+package br.edu.unifio.ecommerce.Repositorios;
 
 import br.edu.unifio.ecommerce.entidades.ItemPedido;
 import org.springframework.data.jpa.repository.JpaRepository;
